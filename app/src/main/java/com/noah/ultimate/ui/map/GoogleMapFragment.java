@@ -51,7 +51,7 @@ public class GoogleMapFragment extends Fragment
     private Location mCurrentLocation;
 
 
-    public static GoogleMapFragment newInstance() {
+    public GoogleMapFragment newInstance() {
         return new GoogleMapFragment();
     }
 
@@ -75,8 +75,8 @@ public class GoogleMapFragment extends Fragment
                              @Nullable Bundle savedInstanceState) {
         Log.i("GoogleMapFragment", "onCreateView()");
 
-        View view = inflater.inflate(R.layout.map_split_fragment, container, false);
-        mMapView = (MapView) view.findViewById(R.id.mapView);
+        View view = inflater.inflate(R.layout.map_google_fragment, container, false);
+        mMapView = (MapView) view.findViewById(R.id.GoogleMapView);
 
         return view;
     }
