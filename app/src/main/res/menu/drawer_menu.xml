@@ -3,7 +3,9 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_grid_view"
-            android:icon="@drawable/ic_brightness_7_black_24dp"
-            android:title="Grid View" />
+            android:title="Basis" />
+        <item
+            android:id="@+id/nav_map_view"
+            android:title="Map" />
     </group>
 </menu>

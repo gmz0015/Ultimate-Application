@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ultimate Application</string>
+
+    <!-- basis_menu -->
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_setting">Settings</string>
 </resources>
